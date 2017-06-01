@@ -1,0 +1,36 @@
+@relation test
+
+@attribute Khoa numeric
+@attribute DiemDanhHK1 numeric
+@attribute GPAHK1 numeric
+@attribute TinChiDangKyHK1 numeric
+@attribute GPATichLuyHK1 numeric
+@attribute DiemDanhHK2 numeric
+@attribute TinChiDangKyHK2 numeric
+@attribute GPAHK2 numeric
+@attribute GPATichLuyHK2 numeric
+@attribute DanToc {Kinh}
+@attribute GioiTinh {Nam}
+@attribute QueQuan {Nam,Trung}
+@attribute HonNhan {Chua}
+@attribute DiemThiDaiHocTong numeric
+@attribute DiemThiDaiHocToan numeric
+@attribute DiemThiDaiHocLy numeric
+@attribute DiemThiDaiHocHoa numeric
+@attribute DiemThiDaiHocAnh numeric
+@attribute DiemThiTHPT numeric
+@attribute NamSinh numeric
+@attribute NamTotNghiepCap3 numeric
+@attribute NamNhapHoc numeric
+@attribute NhanTroCapToanPhanHK1 {Khong,Co}
+@attribute NhanTroCapToanPhanHK2 {Co}
+@attribute VayHocPhiHK1 {Co,Khong}
+@attribute NhanHocBongHK1 {Khong,Co}
+@attribute VayHocPhiHK2 {Co,Khong}
+@attribute NhanHocBongHK2 {Co,Khong}
+@attribute CoHocTiepKhong {Co,Khong}
+
+@data
+1,0.999196,0.807134,22,0.807134,0.823993,21,0.951647,0.87771,Kinh,Nam,Nam,Chua,21.5,7.75,5,0,8.75,52,1994,2012,2014,Khong,Co,Co,Khong,Co,Co,Co
+4,0.091428,0.489582,22,0.489582,0.101589,17,0.078291,0.310301,Kinh,Nam,Nam,Chua,21.5,6.25,6.25,0,9,40.25,1996,2014,2014,Khong,Co,Khong,Khong,Khong,Khong,Co
+1,0.552833,0.645074,22,0.645074,0.71357,20,0.777211,0.707996,Kinh,Nam,Trung,Chua,19,6.25,5.75,7,0,48.75,1992,2010,2010,Co,Co,Co,Co,Co,Co,Co
